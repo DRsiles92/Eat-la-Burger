@@ -1,5 +1,3 @@
--- Select the burgers_db
-USE burgers_db;
--- Insert new rows of data.
-INSERT INTO burgers (burger_name, devoured)
-VALUES ("hamburger", false), ("cheeseburger", false), ("bean burger", false);
+INSERT INTO burgers (burger_name, devoured) VALUES ('La Burger', FALSE);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Hamburger', FALSE);
+INSERT INTO burgers (burger_name, devoured) VALUES ('BLT', FALSE);

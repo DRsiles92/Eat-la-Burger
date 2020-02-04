@@ -1,37 +1,68 @@
-.jumbotron {
-    background-image: url("/assets/img/background.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    margin-top: 10px;
+body {
+  width: 99%;
+  height: 900px;
+  background-color: #fc6;
 }
 
-.jumbotron > h1 {
-    font-family: 'Creepster', cursive;
+#top-bar {
+  margin-top: 28px;
 }
 
-#newburger {
-    border-radius: 5px;
+.spacing-reset {
+  padding: 0;
+  margin: 0;
+  border: 0;
 }
 
-#color-override {
-    color: #fff;
+.list-reset {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  border: 0;
 }
 
-#lefthead {
-    background-color: #5cb85c;
-    color: white;
-    text-align: center;
-    font-size: 1.2em;
+@media (min-width: 1200px) {
+  .container {
+    width: 990px;
+  }
 }
 
-#eatbutton, #trashbutton {
-    float: right;
+@media (min-width: 992px) {
+  .container {
+    width: 990px;
+  }
 }
 
-#righthead {
-    background-color: #f0ad4e;
-    color: white;
-    text-align: center;
-    font-size: 1.2em;
+.enter_section {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#enter_text {
+  width: 400px;
+  height: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: auto;
+  font-size: 38px;
+}
+
+.task {
+  border-color: black;
+  border-style: solid;
+  border-width: 3px;
+}
+
+.button-size {
+  padding-bottom: 20px;
+}
+
+#text-enter-button {
+  margin-top: 10px;
+  margin-bottom: 18px;
+}
+
+h1 {
+  color: #f30;
 }
